@@ -1,2 +1,3 @@
 # lette
-Quick and easy color palettes
+
+> Quick and easy color palettes

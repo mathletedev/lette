@@ -1,0 +1,75 @@
+* {
+	font-family: "Roboto", sans-serif;
+	color: white;
+}
+
+body {
+	margin: 0;
+	background-color: black;
+}
+
+#__next {
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+}
+
+.wheel {
+	height: 75vh;
+	width: 75vh;
+	position: absolute;
+	top: 12.5vh;
+	right: 12.5vh;
+}
+
+.main {
+	width: calc(100vw - 100vh);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 16px;
+}
+
+.hex {
+	font-size: 64px;
+}
+
+.divider {
+	height: 1px;
+	width: 256px;
+	background-color: white;
+}
+
+.description {
+	width: 256px;
+	font-size: 24px;
+}
+
+.settings {
+	width: 256px;
+	display: flex;
+	flex-direction: column;
+	align-content: space-between;
+}
+
+.setting {
+	width: 100%;
+}
+
+.setting label {
+	font-size: 24px;
+}
+
+.setting input {
+	width: 100%;
+}
+
+.copy {
+	width: 256px;
+	margin-top: 8px;
+	background-color: black;
+	border-radius: 25px;
+	border-color: white;
+	font-size: 24px;
+}
